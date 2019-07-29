@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+	line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    background-color: #fff;
+}
+.main{
+	margin-top:80px;
+	font-size: 18px;
+}
+.main a{
+	color: blue;
+}
+.main a:HOVER{
+	color: red;
+}
+.op{
+	margin: 0 auto;
+	width: 1000px;
+}
+.op span{
+	margin-left: 20px;
+	font-size: 20px;
+}
+#messages{
+	overflow-y:scroll;
+	margin: 0 auto;
+	width: 1000px;
+	height: 500px;
+	background: #DDDDDD;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.new_message,.old_message{
+	color: black;
+	font-size: 20px;
+}
+.old{
+	margin-top: 25px;
+}
+#new_ul{
+	margin-top: 5px;
+}
+#new_ul li{
+	list-style: none;
+	margin-top: 5px;
+}
+#old_ul{
+	margin-top: 5px;
+	list-style: none;
+}
+#old_ul li{
+	margin-top: 5px;
+	list-style: none;
+}

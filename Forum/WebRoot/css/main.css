@@ -1,0 +1,146 @@
+body{
+	overflow-y: hidden;
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+  	color: #444;
+  	background-color: #fff;
+  	font-size: 16px;
+}
+a{
+	text-decoration:none;
+	color: #F0F0F0;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #5b6268;
+}
+
+h2 {
+  font-size: 23px;
+  line-height: 40px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f1f1f1;
+}
+
+.content{
+	margin-top: 20px;
+}
+.content-main{
+	width: 64%;
+	height: 90%;
+	float: left;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.articles{
+	width: 100%;
+}
+.article{
+	padding-left:5px;
+	margin-top: 20px;
+	width: 100%;
+}
+.article a{
+	color: blue;
+}
+.article a:HOVER{
+	color: red;
+}
+.article-title{
+	width: 90%;
+	font-size: 23px;
+	margin-left: 80px;
+	background-color: #ADADAD;
+}
+.read{
+	height:30px;
+	float:right;
+	font-size: 16px;
+	line-height: 30px;
+}
+.article-content{
+	width: 90%;
+	height: 40px;
+	font-size: 15px;
+	margin-left: 80px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.article-info{
+	width: 90%;
+	height: 20px;
+	font-size: 16px;
+	text-align: center;
+	margin-left: 80px;
+	background:#d0d0d0;
+	line-height: 20px;
+	margin-top: 5px;
+	border-bottom: 1px solid;
+}
+.info{
+	float: left;
+	width: 18%;
+}
+.info-time{
+	width: 28%;
+}
+.content-other{
+	width:35%;
+	height: 90%;
+	float: right;
+}
+.class-lessions{
+	width: 100%;
+	height: 50%;
+}
+.class-lessions-title{
+	width: 100%;
+	height:10%;
+	text-align: center;
+	margin: 0 auto;
+}
+.
+.class-lessions-content{
+	height:80%;
+	width: 100%;
+}
+.class-lessions-content table{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.lession{
+	width: 18%;
+	height:18%;
+	font-size: 14px;
+}
+.lessions-title{
+	width: 10%;
+	height: 10%;
+}
+.class-activity{
+	margin-top:40px;
+	width: 98%;
+	height: 50%;
+}
+.class-activity-title{
+	width: 100%;
+	height:10%;
+	text-align: center;
+	margin: 0 auto;
+}
+.class-activity-content{
+	border-top: 2px solid;
+	width: 100%;
+	height:75%;
+	padding: 10 10;
+	font-size: 20px;
+}
+#lession_table{
+	background: #34495e;
+	cellspacing:1px;
+}
+#lession_table tr{
+	background: white;
+}

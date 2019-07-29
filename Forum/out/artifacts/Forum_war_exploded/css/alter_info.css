@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+	line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    background-color: #fff;
+}
+.info{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+}
+.basic-info{
+	margin-top: 100px;
+}
+.basic-font{
+	font-size: 22px;
+	margin-left: 50px;
+	margin-right: 10px;
+	line-height: 30px;
+}
+.name-info{
+	font-size: 20px;
+}
+.stu-num-info{
+	font-size: 20px;
+	margin-top: 10px;
+}
+.age-info{
+	line-height: 30px;
+	height: 30px;
+	margin-top: 10px;
+}
+.sex-info{
+	margin-top: 10px;
+	line-height: 30px;
+	height: 30px;
+}
+.home-info{
+	margin-top: 10px;
+	line-height: 30px;
+	height: 30px;
+}
+.phone-info{
+	margin-top: 10px;
+	line-height: 30px;
+	height: 30px;
+}
+.qq-info{
+	margin-top: 10px;
+	line-height: 30px;
+	height: 30px;
+}
+.wechat-info{
+	margin-top: 10px;
+	line-height: 30px;
+	height: 30px;
+}
+.submit{
+	line-height: 30px;
+	height: 30px;
+	margin-top: 30px;
+}
+#input-age{
+	padding-left: 2px;
+	vertical-align:middle;
+}
+#input-home{
+	padding-left: 2px;
+	vertical-align:middle;
+}
+.input-sex{
+	width: 30px;
+	height:20px;
+	line-height: 20px;
+	vertical-align:middle;
+	margin-right:20px; 
+}
+#age{
+	display: none;
+}
+#sex{
+	display: none;
+}
+#home{
+	display: none;
+}
+#phone{
+	display: none;
+}
+#qq{
+	display: none;
+}
+#wechat{
+	display: none;
+}
+.reset{
+	display: inline-block;
+	margin-left: 30px;
+}
+.alter{
+	display: inline-block;
+	margin-left: 20px;
+}
